@@ -13,3 +13,13 @@ else:
 
 # to set output, print to shell in following syntax
 print(f"::set-output name=num_squared::{num ** 2}")
+# program to display numbers from 1 to 5
+
+# initialize the variable
+i = 1
+n = 5
+
+# while loop from i = 1 to 5
+while i <= n:
+    print(i)
+    i = i + 1
